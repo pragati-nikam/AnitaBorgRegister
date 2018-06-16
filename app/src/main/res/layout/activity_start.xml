@@ -121,4 +121,90 @@
         tools:layout_editor_absoluteY="238dp"
         tools:layout_editor_absoluteX="1dp"
         tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="81dp"
+        android:layout_height="34dp"
+        android:layout_weight="0.08"
+        android:layout_x="31dp"
+        android:layout_y="245dp"
+        android:text="Contact no. 2"
+        android:textStyle="bold|italic"
+        tools:fontFamily="sans-serif-condensed"
+        tools:layout_editor_absoluteY="327dp"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.08"
+        android:layout_x="128dp"
+        android:layout_y="69dp"
+        android:ems="10"
+        android:hint="Eg. 0123456789"
+        android:inputType="textPersonName"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="322dp" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_weight="0.08"
+        android:layout_x="31dp"
+        android:layout_y="245dp"
+        android:text="Company Name"
+        android:textStyle="bold|italic"
+        tools:fontFamily="sans-serif-condensed"
+        tools:layout_editor_absoluteY="427dp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="83dp"
+        android:layout_height="40dp"
+        android:layout_weight="0.08"
+        android:layout_x="31dp"
+        android:layout_y="245dp"
+        android:text="Designation"
+        android:textStyle="bold|italic"
+        tools:fontFamily="sans-serif-condensed"
+        tools:layout_editor_absoluteY="501dp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.08"
+        android:layout_x="128dp"
+        android:layout_y="69dp"
+        android:ems="10"
+        android:hint="Eg.Microsoft"
+        android:inputType="textPersonName"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="423dp" />
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.08"
+        android:layout_x="128dp"
+        android:layout_y="69dp"
+        android:ems="10"
+        android:hint="Eg.Software Engineer"
+        android:inputType="textPersonName"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="501dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="618dp" />
 </android.support.constraint.ConstraintLayout>
