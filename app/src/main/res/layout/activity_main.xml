@@ -37,5 +37,17 @@
         android:textStyle="bold|italic"
         android:onClick="start"
         tools:ignore="HardcodedText,UnusedAttribute" />
-
+ <Button
+        android:id="@+id/button3"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:text="Login"
+        android:textColor="#8600b3"
+        android:textStyle="bold|italic"
+        android:onClick="login"
+        tools:ignore="HardcodedText,UnusedAttribute" />
 </android.widget.LinearLayout>
