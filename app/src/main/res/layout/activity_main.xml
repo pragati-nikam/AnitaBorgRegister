@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/lib/com.example.lenovo.anitaborgregister.MainActivity"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -25,7 +25,7 @@
         tools:ignore="ContentDescription" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonRegister"
         android:layout_width="252dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
@@ -33,6 +33,20 @@
         android:layout_marginTop="50dp"
         android:backgroundTint="@android:color/holo_blue_bright"
         android:text="Register"
+        android:textColor="#8600b3"
+        android:textStyle="bold|italic"
+        android:onClick="start"
+        tools:ignore="HardcodedText,UnusedAttribute" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:text="Login"
         android:textColor="#8600b3"
         android:textStyle="bold|italic"
         android:onClick="start"
