@@ -25,7 +25,7 @@
         tools:ignore="ContentDescription" />
 
     <Button
-        android:id="@+id/buttonRegister"
+        android:id="@+id/buttonRegistermain"
         android:layout_width="252dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
@@ -35,35 +35,22 @@
         android:text="Register"
         android:textColor="#8600b3"
         android:textStyle="bold|italic"
-        android:onClick="start"
+        android:onClick="openRegister"
         tools:ignore="HardcodedText,UnusedAttribute" />
-<<<<<<< HEAD
 
     <Button
-        android:id="@+id/buttonLogin"
-=======
- <Button
-        android:id="@+id/button3"
->>>>>>> 72a6177e23dbd8a5cbe5c387ba5f5773918334c8
+        android:id="@+id/buttonLoginmain"
+
         android:layout_width="252dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
-<<<<<<< HEAD
-        android:layout_marginTop="15dp"
-=======
         android:layout_marginTop="50dp"
->>>>>>> 72a6177e23dbd8a5cbe5c387ba5f5773918334c8
         android:backgroundTint="@android:color/holo_blue_bright"
         android:text="Login"
         android:textColor="#8600b3"
         android:textStyle="bold|italic"
-<<<<<<< HEAD
-        android:onClick="start"
-        tools:ignore="HardcodedText,UnusedAttribute" />
+        tools:ignore="HardcodedText,UnusedAttribute"
+        android:onClick="openLogin"/>
 
-=======
-        android:onClick="login"
-        tools:ignore="HardcodedText,UnusedAttribute" />
->>>>>>> 72a6177e23dbd8a5cbe5c387ba5f5773918334c8
 </android.widget.LinearLayout>
